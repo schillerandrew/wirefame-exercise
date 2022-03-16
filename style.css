@@ -1,16 +1,43 @@
 body {
   font-family: 'Poppins', sans-serif;
+  width: 1020px;
 }
 
-nav {
+main {
+  margin: 30px;
+}
+
+ul {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  align-items: center;
   background-color: #808080;
 }
 
+/* 300x375 */
+section {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+section img {
+  margin: 15px;
+}
+
+/* 480x400 */
 div {
   display: flex;
+  justify-content: space-evenly;
+  margin: 30px;
+}
+
+article {
+  margin: 30px;
+}
+
+h2 {
+  font-weight: bold;
 }
 
 button {
@@ -29,8 +56,7 @@ button:hover {
   color: salmon;
 }
 
-/* need a better element for gray banner at bottom */
 hr {
   color: #808080;
-  border: 100px solid #808080;
+  border: 49px solid #808080;
 }
